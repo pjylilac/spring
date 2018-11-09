@@ -1,5 +1,9 @@
 package com.pjylilac.demo.service;
 
+import com.pjylilac.demo.pojo.User;
+
+import java.util.List;
+
 /**
  * @program: demo
  * @description: 用户service
@@ -8,4 +12,7 @@ package com.pjylilac.demo.service;
  */
 public interface UserService {
     Integer insert(String name, String password);
+
+    List<User> getUserList();
+
 }

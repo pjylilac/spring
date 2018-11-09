@@ -8,8 +8,7 @@ spring:
     #   database: 0
     host: 114.116.155.42
     port: 6379
-    password: metetordog2017DEDC
-    timeout: -1
+    timeout: 5000
     pool:
       max-active: 8
       max-wai: -1
